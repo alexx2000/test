@@ -1,0 +1,25 @@
+name: "Bug report"
+labels: [bug]
+description: Report errors or unexpected behavior
+body:
+- type: markdown
+  attributes:
+    value: |
+      Before filling a new bug, please use the [search form](https://doublecmd.sourceforge.io/mantisbt/view_all_bug_page.php) to try to locate similar bugs at the old bug tracker.
+      See [Making a bug report](https://github.com/doublecmd/doublecmd/wiki/Making-a-bug-report) page for guidelines on how to make a good bug report.
+
+- type: textarea
+  attributes:
+    label: Double Commander version
+    placeholder:
+    description: |
+      Choose `Menu->Help->About` to find out.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Description
+    placeholder: Detailed description
+  validations:
+    required: true
