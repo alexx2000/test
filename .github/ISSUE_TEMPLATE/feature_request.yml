@@ -9,7 +9,7 @@ body:
 
 - type: textarea
   attributes:
-    label: Description of the new feature or improvement
+    label: Description
     placeholder:
   validations:
     required: true
