@@ -13,7 +13,7 @@ body:
     label: Double Commander version
     placeholder:
     description: |
-      Choose `Menu->Help->About` to find out.
+      Choose `Menu → Help → About` to find out.
   validations:
     required: true
 
