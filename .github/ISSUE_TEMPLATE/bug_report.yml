@@ -10,8 +10,17 @@ body:
 
 - type: textarea
   attributes:
-    label: Double Commander version
-    placeholder:
+    label: Version
+    placeholder: |
+      Double Commander
+      Version: 1.0.9
+      Revision: 222
+      Commit: a844456e4
+      Build date: 2022/12/03
+      Lazarus: 2.2.5.0
+      FPC: 3.2.2
+      Platform: x86_64-Win64-win32/win64
+      OS version: Windows 10 22H2 x86_64
     description: |
       Choose `Menu → Help → About` to find out.
   validations:
